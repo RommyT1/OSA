@@ -40,17 +40,29 @@ A delightful Chrome extension that brings **osa**, inspired by Adventure Time, t
 ## Project Structure
 
 osa/
+
 ├── manifest.json              # Chrome extension configuration
+
 ├── popup.html                 # Main UI
+
 ├── styles/
+
 │   └── popup.css              # Styles for the popup UI
+
 ├── scripts/
+
 │   ├── popup.js               # Popup logic
+
 │   ├── osaAnimations.js       # Facial animations for osa
+
 │   ├── pageAnalyzer.js        # Analyzes page content
+
 │   ├── chatService.js         # ChatGPT API interaction
+
 │   └── content.js             # Injected script to access webpage content
+
 └── assets/
+
     └── icons/                 # Extension icons
 
 ---
