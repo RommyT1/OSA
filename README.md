@@ -1,6 +1,4 @@
-![white_circle_360x360](https://github.com/user-attachments/assets/14e9e5ad-c7f5-4278-a2ca-5eaaa9b2c03b)
-
-
+![logotext_poweredby_360w](https://github.com/user-attachments/assets/4d1def52-76d0-4478-b4e8-8ecd9ee7e2aa)
 
 # 🧠 osa – ChatGPT Assistant Chrome Extension
 
