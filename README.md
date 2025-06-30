@@ -63,7 +63,7 @@ osa/
 
 └── assets/
 
-    └── icons/                 # Extension icons
+  └── icons/                 # Extension icons
 
 ---
 
