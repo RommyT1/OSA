@@ -1,6 +1,6 @@
 ![logotext_poweredby_360w](https://github.com/user-attachments/assets/4d1def52-76d0-4478-b4e8-8ecd9ee7e2aa)
 
-# 🧠 osa – ChatGPT Assistant Chrome Extension
+# 🧠 OSA – AI Shopping Assistant
 
 A delightful Chrome extension that brings **osa**, inspired by Adventure Time, to life as your personal AI assistant! osa can analyze the content of your current webpage and answer questions about it — or provide intelligent responses using the power of ChatGPT.
 
