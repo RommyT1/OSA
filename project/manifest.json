@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "OSA",
+  "version": "1.0.0",
+  "description": "A friendly shopping assistant that can help analyze webpages",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icons/osa-16.png",
+      "48": "assets/icons/osa-48.png",
+      "128": "assets/icons/osa-128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OSA ChatGPT Assistant</title>
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+  <div class="osa-container">
+    <!-- osa's face screen -->
+    <div class="osa-face-screen">
+      <div class="osa-face">
+        <div class="osa-eyes">
+          <div class="osa-eye"></div>
+          <div class="osa-eye"></div>
+        </div>
+        <div class="osa-mouth"></div>
+      </div>
+    </div>
+
+    <!-- Chat screen -->
+    <div class="chat-screen">
+      <div class="chat-messages" id="chatMessages">
+        <!-- osa's initial message will be inserted dynamically via JS -->
+      </div>
+    </div>
+
+    <!-- osa's body -->
+    <div class="osa-body">
+      <!-- Cartridge slot -->
+      <div class="cartridge-slot"></div>
+
+      <!-- Controls section -->
+      <div class="controls-section">
+        <!-- D-pad -->
+        <div class="d-pad">
+          <div class="d-pad-horizontal"></div>
+          <div class="d-pad-vertical"></div>
+          <div class="d-pad-center"></div>
+        </div>
+
+        <!-- Game buttons -->
+        <div class="game-buttons">
+          <button class="game-button red" id="closeButton"></button>
+          <button class="game-button blue"></button>
+        </div>
+      </div>
+
+      <!-- Chat input -->
+      <div class="chat-input-container">
+        <input type="text" id="chatInput" placeholder="Ask OSA anything...">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/popup.js" type="module"></script>
+</body>
+</html>
