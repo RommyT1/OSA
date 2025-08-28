@@ -92,6 +92,3 @@ DO NOT commit your key to version control.
 ## Disclaimer
 
 This extension is for educational and personal use only. API usage may incur charges. Keep your API key private and monitor usage on your OpenAI account.
-
-
-![logotext_poweredby_360w](https://github.com/user-attachments/assets/4d1def52-76d0-4478-b4e8-8ecd9ee7e2aa)
